@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.source-code-pro-gyat {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.window {
+    display: flex;
+    color: white;
+    width: 860px;
+    height: 500px;
+
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-color: #888888;
+    border-width: 1px;
+    flex-direction: column;
+}
+
+.window hr {
+    border-color: #888888;
+}
+
+.bar {
+    flex-grow: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.bar p, a {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.bar a:link, a:visited {
+    color: #6d76c7;
+}
+
+.bar p.left {
+    text-align: left !important;
+}
+
+.body {
+    flex-grow: 1;
+}
